@@ -16,8 +16,8 @@ export default function App() {
   // Refs
   const noButtonRef = React.useRef<HTMLButtonElement>(null);
   const yesButtonRef = React.useRef<HTMLButtonElement>(null);
-  const noAudio = React.useRef(new Audio("/sad-hamster.mp3"));
-  const yesAudio = React.useRef(new Audio("/cat-dance.mp3"));
+  const noAudio = React.useRef(new Audio("/fun-site-for-jv/sad-hamster.mp3"));
+  const yesAudio = React.useRef(new Audio("/fun-site-for-jv/cat-dance.mp3"));
 
   // Event handlers
   const handleYesButtonClick = () => {
