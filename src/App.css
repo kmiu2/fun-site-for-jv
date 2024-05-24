@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading-text {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.cat {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.yes-button {
+  margin-right: 20px !important;
+}
+
+.no-button {
+  top: 0;
+  left: 0;
+  transition: all 0.5s !important;
+  max-height: 36px !important;
+}
