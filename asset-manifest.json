@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fun-site-for-jv/static/css/main.38444f0c.css",
+    "main.js": "/fun-site-for-jv/static/js/main.0416f8b4.js",
+    "index.html": "/fun-site-for-jv/index.html",
+    "main.38444f0c.css.map": "/fun-site-for-jv/static/css/main.38444f0c.css.map",
+    "main.0416f8b4.js.map": "/fun-site-for-jv/static/js/main.0416f8b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38444f0c.css",
+    "static/js/main.0416f8b4.js"
+  ]
+}
