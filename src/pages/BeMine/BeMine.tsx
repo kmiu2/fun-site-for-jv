@@ -1,8 +1,8 @@
+import styles from "./BeMine.module.css";
 import * as React from "react";
-import "./App.css";
 import { Box, Button, Typography } from "@mui/material";
 
-export default function App() {
+export function BeMine() {
   // State variables
   const [noButtonClickCount, setNoButtonClickCount] = React.useState(0);
   const [headingText, setHeadingText] = React.useState(
@@ -93,15 +93,15 @@ export default function App() {
   };
 
   return (
-    <div className="wrapper">
-      <Typography variant="h2" align="center" className="heading-text">
+    <div className={styles.wrapper}>
+      <Typography variant="h2" className={styles.heading}>
         {headingText}
       </Typography>
-      <Box className="cat" component="img" src={imageSrc} />
+      <Box className={styles.image} component="img" src={imageSrc} />
       <div style={{ display: showButtons ? "flex" : "none" }}>
         <Button
           ref={yesButtonRef}
-          className="yes-button"
+          className={styles.yesButton}
           variant="contained"
           disableElevation
           onClick={handleYesButtonClick}
@@ -110,7 +110,7 @@ export default function App() {
         </Button>
         <Button
           ref={noButtonRef}
-          className="no-button"
+          className={styles.noButton}
           variant="contained"
           disableElevation
           color="error"

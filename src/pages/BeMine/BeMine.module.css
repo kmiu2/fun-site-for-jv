@@ -6,21 +6,22 @@
   height: 100vh;
 }
 
-.heading-text {
+.heading {
+  text-align: center;
   word-wrap: break-word;
   max-width: 100%;
 }
 
-.cat {
+.image {
   width: 200px;
   margin: 20px 0;
 }
 
-.yes-button {
+.yesButton {
   margin-right: 20px !important;
 }
 
-.no-button {
+.noButton {
   top: 0;
   left: 0;
   transition: all 0.5s !important;
