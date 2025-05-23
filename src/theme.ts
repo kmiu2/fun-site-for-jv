@@ -12,6 +12,24 @@ const theme = createTheme({
       dark: "#c60055",
       contrastText: "#fff",
     },
+    secondary: {
+      main: "#7f52ba",
+      light: "#b499d6",
+      dark: "#623a92",
+      contrastText: "#fff",
+    },
+    text: {
+      secondary: "#fff",
+    },
+  },
+  components: {
+    MuiDialog: {
+      styleOverrides: {
+        paper: {
+          backgroundColor: "#8976b3",
+        },
+      },
+    },
   },
 });
 

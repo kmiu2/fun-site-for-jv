@@ -16,6 +16,9 @@ export function Home() {
         <Link to="/girlfriend-day-2024" className={styles.link}>
           Girlfriend's Day 2024
         </Link>
+        <Link to="/grievance-portal" className={styles.link}>
+          Grievance Portal
+        </Link>
       </Typography>
       <Box
         className={styles.image}
